@@ -7,3 +7,6 @@ Im Folgenden eine kurze Übersicht, auf den jeweiligen Unterseiten werden stets 
 | Programm                                      | Beschreibung  |
 |:----------------------------------------------|:--------------|
 |[LabPlot](./04_01_LabPlot)                     | Freies Programm zur Datenauswertung mit grafischer Bedienung. Vergleichbar zu kommerziellen Produkten wie Origin. |
+|[Gnuplot](./04_02_Gnuplot)                     | ... |
+|[Python/Matplotlib](./04_03_Python_Matplotlib) | ... |
+|[ROOT](./04_04_ROOT)                           | ... |

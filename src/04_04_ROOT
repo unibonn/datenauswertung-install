@@ -1,0 +1,67 @@
+# ROOT
+
+ROOT ist...
+
+## Installation
+
+Die aktuellen ROOT-Versionen 6.26/xx leiden noch an einigen Kinderkrankheiten, die die Auswertung erschweren können. Falls eine solche Version installiert wurde, empfehlen wir aktuell, mit folgendem Kommando den TBrowser wieder in den "klassischen" Modus zurückzukonfigurieren:
+```bash
+echo "Browser.Name: TRootBrowser" >> ~/.rootrc
+```
+Die Probleme sind ab Version 6.28/00 gelöst, unter Windows empfiehlt sich aufgrund der grafischen Darstellung aber dennoch die vorstehende Konfiguration.
+
+### Linux
+Hier hängt der praktischste Weg von der verwendeten Linux-Distribution ab. Bei einigen Distributionen steht root direkt in den Paketquellen zur Verfügung und kann über die Paketverwaltung installiert werden:
+https://repology.org/project/root/versions
+Dies betrifft hauptsächlich RedHat-basierte Distributionen, ArchLinux und Gentoo. Für Ubuntu Linux in den LTS-Versionen stellt das root-Team selbst vorkompilierte Pakete zur Verfügung, die nach der Anleitung unter:
+https://root.cern/install/
+installiert werden können. Wichtig dabei ist, die passende Version herunterzuladen (etwa "Ubuntu 20" für Ubuntu 20.04 LTS).
+
+Wenn auf diesen Wegen keine Version zur Verfügung steht, bleibt eine Installation über Conda (siehe unten) oder "selbst kompilieren", was allerdings eine größere Herausforderung darstellt.
+
+Der Vollständigkeit halber sei erwähnt, dass theoretisch auch eine Installation per Snap möglich ist. Dabei ist aber das Laufenlassen eigener Software (wie des im Versuchs entwickelten Analyse-Codes) mit der root-Version aus dem Snap deutlich komplizierter.
+
+
+### Windows
+
+Unter Windows 10 und höher wird die Nutzung des WSL (Windows Subsystem for Linux) empfohlen. Hierbei sollte mindestens Windows 10 Build 19044 oder ein voll aktualisiertes Windows 11 verwendet werden, ab diesen Versionen unterstützt das aktuelle "WSL 2" auch grafische Anwendungen ohne teils komplizierte Modifikationen. Zudem sollte nach dem Aktualisierungen ein aktuelles Linux installiert werden, falls zuvor bereits eine alte Linux-Umgebung installiert war.  
+Der verwendete Windows-Build kann mit folgendem Kommando geprüft werden:
+```
+winver.exe
+```
+Die verwendete WSL-Version für installierte Linux-Systeme kann wie folgt geprüft werden:
+```
+wsl --list --verbose
+```
+Falls sich dabei herausstellt, dass WSL noch nicht installiert ist, kann es mit dem Kommando:
+```
+wsl --install
+```
+aktiviert werden.
+Ein Update von WSL ist wie folgt möglich (in einer Eingabeaufforderung / PowerShell mit Administratorrechten):
+```
+wsl --update
+wsl --shutdown
+```
+Ist schlussendlich ein aktuelles Linux-System in einer aktuellen WSL-Umgebung installiert, müssen vor der Installation von ROOT zunächst ein paar Abhängigkeiten, die auch für die Auswertung sinnvoll sind, innerhalb der Linux-Umgebung nachinstalliert werden:
+```bash
+sudo apt update && sudo apt dist-upgrade
+sudo apt install build-essential libtbb-dev libtiff5 x11-apps git
+```
+Schlussendlich kann den normalen Instruktionen für eine Installation unter Linux gefolgt werden, also herunterladen des Tarballs von der ROOT Webseite (mit wget), dann entpacken. Wichtig ist, tatsächlich in der Ubuntu-Umgebung mit wget herunterzuladen und zu entpacken, beim Herunterladen und Entpacken unter Windows und nachträglicher Kopie in die Linux-Umgebung kann es zu Problemen kommen, da Windows die Dateien unnötigerweise konvertiert. Schlussendlich dann in der Ubuintu-Umgebung folgendes Kommando ausführen:
+```bash
+source root/bin/thisroot.sh
+```
+
+### macOS
+Unter macOS lässt sich ROOT über mehrere Wege installieren:
+
+- Über eine Paketverwaltung wie Homebrew, Macports oder Nix. Weitere Details dazu sind unter folgender Adresse zu finden:
+  https://root.cern/install/#macos-package-managers
+- Über Conda wie weiter unten beschrieben.
+
+Bei der späteren Auswertung muss auf macOS Systemen das Makefile leicht angepasst werden. Hier muss die Option:
+```
+-Wl,--no-as-needed
+```
+entfernt werden, die auf Ubuntu-Systemen benötigt (und auf anderen Systemen ignoriert) wird, aber auf macOS zwar nicht benötigt ist, allerdings zu einer Fehlermeldung führt.
