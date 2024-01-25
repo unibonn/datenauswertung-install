@@ -1,0 +1,3 @@
+# LaTeX
+
+Das Textsatzsystem LaTeX
