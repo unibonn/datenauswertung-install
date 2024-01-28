@@ -10,4 +10,4 @@ Hier empfehlen sich etwa folgende Programme:
 |:-----------------------------------------------|:--------------|
 |[LibreOffice Calc](https://de.libreoffice.org/) | Tabellenkalkulation aus dem freien Office-Paket LibreOffice, installierbar unter allen Betriebssystemen.  |
 |Numbers                                         | Mitgelieferte Tabellenkalkulation unter Apple macOS |
-|[LabPlot](./04_01_LabPlot)                      | Freies Programm zur Datenauswertung, welches auch Komponenten einer Tabellenkalkulation bieter. |
+|[LabPlot](./04_01_LabPlot.md)                   | Freies Programm zur Datenauswertung, welches auch Komponenten einer Tabellenkalkulation bieter. |
