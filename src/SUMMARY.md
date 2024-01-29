@@ -11,3 +11,6 @@
   - [Gnuplot](./04_02_Gnuplot.md)
   - [Python/Matplotlib](./04_03_Python_Matplotlib.md)
   - [ROOT](./04_04_ROOT.md)
+- [Anhang](./ZZ_Anhang.md)
+  - [Paketverwaltungen Windows](./ZZ_Paketverwaltungen_Windows.md)
+  - [Paketverwaltungen macOS](./ZZ_Paketverwaltungen_macOS.md)
