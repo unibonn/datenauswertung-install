@@ -1,7 +1,9 @@
 # Inhalt
 
 - [Einführung](./01_einführung.md)
-- [LaTeX](./02_latex.md)
+- [Berichterstellung](./02_berichterstellung.md)
+  - [LaTeX](./02_01_latex.md)
+  - [Inkscape](./02_02_inkscape.md)
 - [Datenerfassung](./03_datenerfassung.md)
   - [LibreOffice Installation unter Windows](./03_01_LibreOffice_Windows.md)
   - [LibreOffice Installation unter Linux](./03_02_LibreOffice_Linux.md)
