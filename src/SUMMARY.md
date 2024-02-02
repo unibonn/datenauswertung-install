@@ -11,6 +11,7 @@
     - [macOS](./03_01_03_LibreOffice_macOS.md)
 - [Datenauswertung](./04_datenauswertung.md)
   - [LabPlot](./04_01_LabPlot.md)
+    - [Linux](./04_01_02_LabPlot_Linux.md)
   - [Gnuplot](./04_02_Gnuplot.md)
   - [Python/Matplotlib](./04_03_Python_Matplotlib.md)
   - [ROOT](./04_04_ROOT.md)
