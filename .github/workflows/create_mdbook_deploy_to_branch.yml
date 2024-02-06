@@ -1,10 +1,13 @@
-name: github pages
+name: github pages via dedicated branch
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+# Run manual only
+on: workflow_dispatch
+
+#on:
+#  push:
+#    branches:
+#      - main
+#  pull_request:
 
 jobs:
   deploy:
