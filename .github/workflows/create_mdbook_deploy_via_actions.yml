@@ -47,9 +47,9 @@ jobs:
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh -s -- -y
           rustup update
           if [ "${MDBOOK_VERSION}" = "latest" ]; then
-            cargo install mdbook
+            cargo install mdbook -Z install-upgrade
           else
-            cargo install --version ${MDBOOK_VERSION} mdbook
+            cargo install --version ${MDBOOK_VERSION} mdbook -Z install-upgrade
           fi
       - name: Setup Pages
         id: pages
