@@ -62,6 +62,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./book
+      - name: Autoclean cargo cache
+        run: |
+          cargo install cargo-cache --no-default-features --features ci-autoclean cargo-cache
+          cargo-cache
 
   # Deployment job
   deploy:
