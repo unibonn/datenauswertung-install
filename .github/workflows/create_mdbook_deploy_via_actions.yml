@@ -42,13 +42,12 @@ jobs:
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
             target/
-          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-          restore-keys: ${{ runner.os }}-cargo-
+          key: ${{ runner.os }}-cargo
+          restore-keys: ${{ runner.os }}-cargo
       - name: Install mdBook
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh -s -- -y
           rustup update
-          cargo update
           if [ "${MDBOOK_VERSION}" = "latest" ]; then
             cargo install mdbook
           else
