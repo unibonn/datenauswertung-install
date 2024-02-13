@@ -10,6 +10,7 @@
       - [Windows](./03_01_01_01_LibreOffice_Installation_Windows.md)
       - [Linux](./03_01_01_02_LibreOffice_Installation_Linux.md)
       - [macOS](./03_01_01_03_LibreOffice_Installation_macOS.md)
+    - [Erste Schritte](./03_02_LibreOffice_Erste_Schritte.md)
 - [Datenauswertung](./04_datenauswertung.md)
   - [LabPlot](./04_01_LabPlot.md)
     - [Linux](./04_01_02_LabPlot_Linux.md)
