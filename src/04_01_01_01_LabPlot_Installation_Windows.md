@@ -1,0 +1,2 @@
+# LabPlot Installation unter Windows
+

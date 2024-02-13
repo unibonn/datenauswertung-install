@@ -1,4 +1,4 @@
-# LabPlot unter Linux
+# LabPlot Installation unter Linux
 
 Auf den meisten Linux-Systemen befindet sich LabPlot in den Standard-Paketquellen. Das bedeutet, dass sich LabPlot (sowie spätere Updates) als Bestandteil des Systems installieren lassen. 
 
