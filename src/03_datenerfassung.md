@@ -10,5 +10,5 @@ Hier empfehlen sich etwa folgende Programme:
 |:-----------------------------------------------|:--------------|:----------------------|
 |[LibreOffice Calc](https://de.libreoffice.org/) | Tabellenkalkulation aus dem freien Office-Paket LibreOffice, installierbar unter allen Betriebssystemen. | [Windows](./03_01_01_01_LibreOffice_Installation_Windows.md) [Linux](./03_01_01_02_LibreOffice_Installation_Linux.md) [macOS](./03_01_01_03_LibreOffice_Installation_macOS.md) |
 |Numbers                                         | Mitgelieferte Tabellenkalkulation unter Apple macOS | |
-|[LabPlot](./04_01_LabPlot.md)                   | Freies Programm zur Datenauswertung, welches auch Komponenten einer Tabellenkalkulation bieter. | |
+|[LabPlot](./04_01_LabPlot.md)                   | Freies Programm zur Datenauswertung, welches auch Komponenten einer Tabellenkalkulation bieter. | [Windows](./04_01_01_01_LabPlot_Installation_Windows.md) [Linux](./04_01_01_02_LabPlot_Installation_Linux.md) [macOS](./04_01_01_03_LabPlot_Installation_macOS.md) |
 
