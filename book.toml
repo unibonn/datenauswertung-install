@@ -10,3 +10,7 @@ git-repository-url = "https://github.com/unibonn/datenauswertung-install"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/unibonn/datenauswertung-install/edit/main/{path}"
 site-url = "/datenauswertung-install/"
+
+[output.html.fold]
+enable = true     # whether or not to enable section folding
+level = 1         # the depth to start folding
