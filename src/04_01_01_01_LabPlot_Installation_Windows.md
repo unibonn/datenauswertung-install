@@ -9,6 +9,7 @@ Bei Winget weicht der Installationsbefehl leicht von der üblichen, leicht kürz
 winget install -e --id KDE.LabPlot
 ```
 
+Eine weitere Alternative stellt die Installation über den Microsoft Store dar. Dieser bietet auch halbautomatische Updates und man kann man das Paket einfach über die Suche finden.
 
 ## Installation per Hand
 
