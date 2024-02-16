@@ -17,6 +17,7 @@ Als Alternative zur Kommandozeile stehen auch grafische Oberflächen für die Pa
 ## Chocolatey
 
 Chocolatey selbst muss zunächst manuell wie auf der offiziellen Webseite [beschrieben](https://chocolatey.org/install#individual) installiert werden.
+Der erste Schritt, das Angeben einer E-Mail-Adresse, ist dabei optional.
 Danach können Programme per Kommandozeile etwa mit:
 ```shell
 choco install <Programmname>
