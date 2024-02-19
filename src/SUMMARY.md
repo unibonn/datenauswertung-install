@@ -29,6 +29,7 @@
       - [Windows](./04_03_01_01_Python_Matplotlib_Installation_Windows.md)
       - [Linux](./04_03_01_02_Python_Matplotlib_Installation_Linux.md)
       - [macOS](./04_03_01_03_Python_Matplotlib_Installation_macOS.md)
+    - [Erste Schritte](./04_03_02_Python_Matplotlib_Erste_Schritte.md)
   - [ROOT](./04_04_ROOT.md)
     - [Installation](./04_04_01_ROOT_Installation.md)
       - [Windows](./04_04_01_01_ROOT_Installation_Windows.md)
