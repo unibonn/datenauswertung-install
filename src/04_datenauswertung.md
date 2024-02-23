@@ -4,9 +4,9 @@ Zur Auswertung von Daten gibt es verschiedene Programme, welche sich teils deutl
 
 Im Folgenden eine kurze Übersicht, auf den jeweiligen Unterseiten werden stets mehr Details und eine Anleitung zur Installation bereitgestellt:
 
-| Programm                                         | Beschreibung  |
-|:-------------------------------------------------|:--------------|
-|[LabPlot](./04_01_LabPlot.md)                     | Freies Programm zur Datenauswertung mit grafischer Bedienung. Vergleichbar zu kommerziellen Produkten wie Origin. |
-|[Gnuplot](./04_02_Gnuplot.md)                     | ... |
-|[Python/Matplotlib](./04_03_Python_Matplotlib.md) | ... |
-|[ROOT](./04_04_ROOT.md)                           | ... |
+| Programm                                          | Beschreibung                                                                                                      | Installationshinweise                                                                                                                                                                                      |
+|:--------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [LabPlot](./04_01_LabPlot.md)                     | Freies Programm zur Datenauswertung mit grafischer Bedienung. Vergleichbar zu kommerziellen Produkten wie Origin. | [Windows](./04_01_01_01_LabPlot_Installation_Windows.md) <br> [Linux](./04_01_01_02_LabPlot_Installation_Linux.md) <br> [macOS](./04_01_01_03_LabPlot_Installation_macOS.md)                               |
+| [Gnuplot](./04_02_Gnuplot.md)                     | Freies Programm zur einfachen Erstellung von Plots und Anpassung von Funktionen an Messdaten, skriptbasiert.      | [Windows](./04_02_01_01_Gnuplot_Installation_Windows.md) <br> [Linux](./04_02_01_02_Gnuplot_Installation_Linux.md) <br> [macOS](./04_02_01_03_Gnuplot_Installation_macOS.md)                               |
+| [Python/Matplotlib](./04_03_Python_Matplotlib.md) | Freie, vollständige Skriptsprache mit Erweiterungen zur Auswertung und Darstellung von Messdaten.                 | [Windows](./04_03_01_01_Python_Matplotlib_Installation_Windows.md) <br> [Linux](./04_03_01_02_Python_Matplotlib_Installation_Linux.md) <br> [macOS](./04_03_01_03_Python_Matplotlib_Installation_macOS.md) |
+| [ROOT](./04_04_ROOT.md)                           | Freies C++-Framework, welches einfache Auswertungen erlaubt bis hin zur Entwicklung eigener Analyseprogramme.     | [Windows](./04_04_01_01_ROOT_Installation_Windows.md) <br> [Linux](./04_04_01_02_ROOT_Installation_Linux.md) <br> [macOS](./04_04_01_03_ROOT_Installation_macOS.md)                                        |
