@@ -1,24 +1,6 @@
 # Installation von ROOT unter Windows
 
-Unter Windows 10 und höher wird die Nutzung des WSL (Windows Subsystem for Linux) empfohlen. Hierbei sollte mindestens Windows 10 Build 19044 oder ein voll aktualisiertes Windows 11 verwendet werden, ab diesen Versionen unterstützt das aktuelle "WSL 2" auch grafische Anwendungen ohne teils komplizierte Modifikationen. Zudem sollte nach dem Aktualisierungen ein aktuelles Linux installiert werden, falls zuvor bereits eine alte Linux-Umgebung installiert war.  
-Der verwendete Windows-Build kann mit folgendem Kommando geprüft werden:
-```
-winver.exe
-```
-Die verwendete WSL-Version für installierte Linux-Systeme kann wie folgt geprüft werden:
-```
-wsl --list --verbose
-```
-Falls sich dabei herausstellt, dass WSL noch nicht installiert ist, kann es mit dem Kommando:
-```
-wsl --install
-```
-aktiviert werden.
-Ein Update von WSL ist wie folgt möglich (in einer Eingabeaufforderung / PowerShell mit Administratorrechten):
-```
-wsl --update
-wsl --shutdown
-```
+Zunächst muss das Windows Subsystem für Linux wie [hier](./ZZ_Windows_Subsystem_for_Linux.md) beschrieben installiert werden.
 Ist schlussendlich ein aktuelles Linux-System in einer aktuellen WSL-Umgebung installiert, müssen vor der Installation von ROOT zunächst ein paar Abhängigkeiten, die auch für die Auswertung sinnvoll sind, innerhalb der Linux-Umgebung nachinstalliert werden:
 ```bash
 sudo apt update && sudo apt dist-upgrade
