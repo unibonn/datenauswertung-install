@@ -12,4 +12,4 @@ Alternativ zur Kommandozeile kann auch eine grafische Oberfläche für Homebrew 
 
 ## MacPorts
 
-FIXME
+Eine alternative Paketverwaltung ist [MacPorts](https://www.macports.org/). Im Gegensatz zu Homebrew verfolgt MacPorts einen generischeren Ansatz der auch auf anderen Betriebssystemen funktioniert, was allerdings ebenfalls bedeutetet, dass es keine direkte Unterstützung für native Mac-Anwendungen bietet (bei Homebrew als "Casks" installierbar). Daher wird an dieser Stelle nicht im Detail auf MacPorts eingegangen.
