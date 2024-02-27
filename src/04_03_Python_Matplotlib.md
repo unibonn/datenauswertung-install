@@ -2,7 +2,7 @@
 
 [Python](https://www.python.org/) ist eine nicht-typisierte Skriptsprache, die zur Datenanalyse und Visualisierung, aber auch für komplett andere Aufgaben, wie z.B. die Entwicklung von Webseiten, verwendet werden kann.
 Da es sich um eine allgemeine Skriptsprache handelt, kann es alle möglichen Aufgaben von der Erstellung von Datentabellen über die Auswertung der Daten inklusive Fehlerrechnung bis hin zur Darstellung der Ergebnisse übernehmen.
-Dabei unterstützt es Latex-Formate.
+Dabei unterstützt es LaTeX-Formate.
 
 [Matplotlib](https://matplotlib.org/) ist eine Bibliothek, die weitere Funktionalität innerhalb von Python zur Verfügung stellt.
 Diese vereinfacht die Darstellung von Daten und weiteren Auswertungen deutlich.
