@@ -7,11 +7,12 @@ on:
   pull_request:
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages, and purge old caches
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -74,7 +75,7 @@ jobs:
     needs: build
     steps:
       - name: Clear out old caches
-        uses: MyAlbum/purge-cache@v2
+        uses: MyAlbum/purge-cache@v2.1.0
         with:
           accessed: true # Purge caches by their last accessed time (default)
           created: false # Purge caches by their created time (default)
