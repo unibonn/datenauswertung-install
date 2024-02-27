@@ -37,7 +37,7 @@ installieren. Üblicherweise sind hier ebenfalls administrative Rechte nötig, s
 
 openSUSE nutzt eigentlich das gleiche Paketformat wie RedHat und davon abgeleitete Distributionen, verwendet allerdings eine andere Paketverwaltung. Hier kann das Kommandozeilentool `zypper` verwendet werden, also:
 ```shell
-apt install <Programmname>
+zypper install <Programmname>
 ```
 Üblicherweise sind hier ebenfalls administrative Rechte nötig, sodass entweder `sudo` vorangestellt oder zuerst `su -` aufgerufen werden muss, wie vorstehend für die Debian-basierten Distributionen beschrieben.
 
