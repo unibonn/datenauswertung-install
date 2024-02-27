@@ -69,6 +69,17 @@ jobs:
           cargo install cargo-cache --no-default-features --features ci-autoclean cargo-cache
           cargo-cache
 
+  clear-old-caches:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Clear out old caches
+        uses: MyAlbum/purge-cache@v2
+        with:
+          accessed: true # Purge caches by their last accessed time (default)
+          created: false # Purge caches by their created time (default)
+          max-age: 604800 # Leave only caches accessed in the last 7 days (default)
+
   # Deployment job
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
