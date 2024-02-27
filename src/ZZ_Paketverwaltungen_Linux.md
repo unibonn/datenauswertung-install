@@ -25,6 +25,14 @@ apt install <Programmname>
 ```
 Einige der genannten Distributionen bieten auch Pakete über eine grafische Softwareverwaltung an, etwa "Synaptic" oder einfach "Software Center". Teils werden im Software Center jedoch auch Anwendungen aus externen Quellen angeboten, was ein Sicherheitsrisiko darstellen oder Probleme beim Update der Distribution verursachen kann. 
 
+Zum Aktualisierten der installierten Pakete bringt oftmals die grafische Oberfläche eine Möglichkeit zur Benachrichtigung, etwa über den "Update Notifier". Manuell ist dies über folgende Schritte möglich:
+```shell
+# Paketquellen aktualisieren:
+apt update
+# Aktualisierungen installieren:
+apt dist-upgrade
+```
+
 ## RedHat / CentOS / RockyLinux / AlmaLinux / Fedora Linux
 
 Diese Distributionen nutzen `dnf` für die Paketverwaltung, in älteren Versionen auch `yum`. Darüber lassen sich Pakete mit dem Kommando:
@@ -32,6 +40,12 @@ Diese Distributionen nutzen `dnf` für die Paketverwaltung, in älteren Versione
 dnf install <Programmname>
 ```
 installieren. Üblicherweise sind hier ebenfalls administrative Rechte nötig, sodass entweder `sudo` vorangestellt oder zuerst `su -` aufgerufen werden muss, wie vorstehend für die Debian-basierten Distributionen beschrieben.
+
+Zum Aktualisierten der installierten Pakete bringt oftmals die grafische Oberfläche eine Möglichkeit zur Benachrichtigung. Manuell ist dies über folgenden Schritt möglich:
+```shell
+# Aktualisieren der Paketlisten und Pakete:
+dnf --refresh update
+```
 
 ## openSUSE
 
@@ -41,7 +55,13 @@ zypper install <Programmname>
 ```
 Üblicherweise sind hier ebenfalls administrative Rechte nötig, sodass entweder `sudo` vorangestellt oder zuerst `su -` aufgerufen werden muss, wie vorstehend für die Debian-basierten Distributionen beschrieben.
 
-Unter openSUSE lassen sich Programmpakete ebenfalls mit der grafischen Oberfläche "YaST Software Management" installieren.
+Unter openSUSE lassen sich Programmpakete ebenfalls mit der grafischen Oberfläche "YaST Software Management" installieren, hierüber und über eine grafische Update-Benachrichtigung können auch Aktualisierungen eingespielt werden. Manuell ist dies über folgende Schritte möglich:
+```shell
+# Aktualisieren der Paketlisten:
+zypper refresh
+# Aktualisierungen installieren:
+zypper up
+```
 
 ## ArchLinux / Manjaro
 
@@ -51,6 +71,12 @@ pacman -Syu <Programmname>
 ```
 installieren. Üblicherweise sind hier ebenfalls administrative Rechte nötig, sodass entweder `sudo` vorangestellt oder zuerst `su -` aufgerufen werden muss, wie vorstehend für die Debian-basierten Distributionen beschrieben.
 
+Eine Systamaktualisierung kann mit dem Kommando:
+```shell
+pacman -Syu
+```
+ausgelöst werden. Hierbei sollten unbedingt die [Hinweise aus der ArchLinux Dokumentation](https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system) berücksichtigt werden.
+
 ## Gentoo / Funtoo / Calculate Linux
 
 Unter Gentoo-basierenden Distributionen wird für die Paketverwaltung `emerge` verwendet. Hiermit lassen sich Pakete über das Kommando:
@@ -58,3 +84,12 @@ Unter Gentoo-basierenden Distributionen wird für die Paketverwaltung `emerge` v
 emerge -av <Programmname>
 ```
 installieren. Üblicherweise sind hier ebenfalls administrative Rechte nötig, sodass entweder `sudo` vorangestellt oder zuerst `su -` aufgerufen werden muss, wie vorstehend für die Debian-basierten Distributionen beschrieben.
+
+Eine Systamaktualisierung kann mit den Kommandos:
+```shell
+# Paketquellen aktualisieren:
+emerge --sync
+# Updates für Systempakete und Pakete aus dem World-Set installieren, dabei bis zu 2 Pakete parallel installieren:
+emerge -uDNav -j2 system world
+```
+ausgelöst werden. 

@@ -10,6 +10,16 @@ brew install --cask <Programmname>
 ```
 Alternativ zur Kommandozeile kann auch eine grafische Oberfläche für Homebrew installiert werden, etwa [Applite](https://aerolite.dev/applite/index.html), [Cork](https://corkmac.app/) oder [Cakebrew](https://www.cakebrew.com/). 
 
+für eine Aktualisierung aller per Homebrew installierten Pakete können die folgenden Kommandos genutzt werden:
+```shell
+# Aktualisieren von Homebrew selbst und der Paketlisten:
+brew update
+# Listen der Pakete, für die eine Aktualisierung vorhanden ist:
+brew outdated
+# Aktualisieren aller Pakete:
+brew upgrade
+```
+
 ## MacPorts
 
 Eine alternative Paketverwaltung ist [MacPorts](https://www.macports.org/). Im Gegensatz zu Homebrew verfolgt MacPorts einen generischeren Ansatz der auch auf anderen Betriebssystemen funktioniert, was allerdings ebenfalls bedeutetet, dass es keine direkte Unterstützung für native Mac-Anwendungen bietet (bei Homebrew als "Casks" installierbar). Daher wird an dieser Stelle nicht im Detail auf MacPorts eingegangen.

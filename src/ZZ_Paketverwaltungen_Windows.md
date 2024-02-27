@@ -14,6 +14,14 @@ installieren.
 
 Als Alternative zur Kommandozeile stehen auch grafische Oberflächen für die Paketverwaltung zur Verfügung, etwa [WingetUI](https://www.marticliment.com/wingetui/).
 
+Um alle per `winget` installierten Pakete zu aktualisieren, können folgende Kommandos genutzt werden:
+```shell
+# Auflisten aller Pakete, für die eine Aktualisierung zur Verfügung steht:
+winget upgrade
+# Installieren aller Updates:
+winget upgrade --all
+```
+
 ## Chocolatey
 
 Chocolatey selbst muss zunächst manuell wie auf der offiziellen Webseite [beschrieben](https://chocolatey.org/install#individual) installiert werden.
@@ -25,3 +33,8 @@ choco install <Programmname>
 installiert werden.
 
 Als Alternative zur Kommandozeile stehen auch grafische Oberflächen für die Paketverwaltung zur Verfügung, etwa [WingetUI](https://www.marticliment.com/wingetui/).
+
+Um alle per `winget` installierten Pakete zu aktualisieren, kann folgendes Kommandos genutzt werden:
+```shell
+choco upgrade all
+```
