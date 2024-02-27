@@ -1,9 +1,9 @@
 # Installation von ROOT unter Linux
 
-Hier hängt der praktischste Weg von der verwendeten Linux-Distribution ab. Bei einigen Distributionen steht root direkt in den Paketquellen zur Verfügung und kann über die Paketverwaltung installiert werden:
+Hier hängt der praktischste Weg von der verwendeten Linux-Distribution ab. Bei einigen Distributionen steht `root` direkt in den Paketquellen zur Verfügung und kann über die Paketverwaltung installiert werden:
 [https://repology.org/project/root/versions](https://repology.org/project/root/versions)
 
-Dies betrifft hauptsächlich RedHat-basierte Distributionen, ArchLinux und Gentoo. Für Ubuntu Linux in den LTS-Versionen stellt das root-Team selbst vorkompilierte Pakete zur Verfügung, die nach der Anleitung unter
+Dies betrifft hauptsächlich RedHat-basierte Distributionen, ArchLinux und Gentoo. Für Ubuntu Linux in den LTS-Versionen stellt das ROOT-Team selbst vorkompilierte Pakete zur Verfügung, die nach der Anleitung unter
 [https://root.cern/install/](https://root.cern/install/)
 installiert werden können. Wichtig dabei ist, die passende Version herunterzuladen (etwa "Ubuntu 20" für Ubuntu 20.04 LTS).
 

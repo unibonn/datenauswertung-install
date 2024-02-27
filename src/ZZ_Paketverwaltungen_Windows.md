@@ -1,6 +1,6 @@
 # Paketverwaltungen Windows
 
-Empfohlen wird, unter Windows eine Paketverwaltung zu verwenden. Dies stellt sicher, dass Updates der installierten Anwendungen einfach und bei Bedarf auch automatisch eingespielt werden können, unabhängig von der Update-Funktionalität der Programme selbst. Außerdem wird dabei durch die Paketverwaltung sichergestellt, dass die heruntergeladenen Pakete aus zuverlässiger Quelle stammeb. 
+Empfohlen wird, unter Windows eine Paketverwaltung zu verwenden. Dies stellt sicher, dass Updates der installierten Anwendungen einfach und bei Bedarf auch automatisch eingespielt werden können, unabhängig von der Update-Funktionalität der Programme selbst. Außerdem wird dabei durch die Paketverwaltung sichergestellt, dass die heruntergeladenen Pakete aus zuverlässiger Quelle stammen. 
 
 Verbreitete Paketverwaltungen unter Windows sind zunächst der eingebaute Windows Store, der allerdings nicht alle oft benötigten Programme beinhaltet. Ergänzen lässt er sich leicht etwa über [winget](https://learn.microsoft.com/de-de/windows/package-manager/winget/) oder [Chocolatey](https://chocolatey.org/). 
 

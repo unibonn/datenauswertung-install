@@ -1,6 +1,6 @@
 # Paketverwaltungen macOS
 
-Empfohlen wird, unter macOS eine Paketverwaltung wie [Homebrew](https://brew.sh/) oder [MacPorts](https://www.macports.org/) zu verwenden. Dies stellt sicher, dass Updates der installierten Anwendungen einfach und bei Bedarf auch automatisch eingespielt werden können, unabhängig von der Update-Funktionalität der Programme selbst. Außerdem wird dabei durch die Paketverwaltung sichergestellt, dass die heruntergeladenen Pakete aus zuverlässiger Quelle stammeb. 
+Empfohlen wird, unter macOS eine Paketverwaltung wie [Homebrew](https://brew.sh/) oder [MacPorts](https://www.macports.org/) zu verwenden. Dies stellt sicher, dass Updates der installierten Anwendungen einfach und bei Bedarf auch automatisch eingespielt werden können, unabhängig von der Update-Funktionalität der Programme selbst. Außerdem wird dabei durch die Paketverwaltung sichergestellt, dass die heruntergeladenen Pakete aus zuverlässiger Quelle stammen. 
 
 ## Homebrew
 

@@ -1,6 +1,6 @@
 # Paketverwaltungen Linux
 
-Alle üblichen Linux-Distributionen bringen von Haus aus eine Paketverwaltung mit. Diese kümmert sich darum, von den Verwaltern der Distribution gepflegte Paketversionen zu installieren und aktuell zu halten, sowie sicherzustellen, dass die heruntergeladenen Pakete aus zuverlässiger Quelle stammeb. Hierbei verwendet jede "Distributionsfamilie" eine eigene Paketverwaltung, da meist hinter den Kulissen auch andere Paketformate verwendet werden, die jeweils verschiedene Vorteile und Nachteile bieten.
+Alle üblichen Linux-Distributionen bringen von Haus aus eine Paketverwaltung mit. Diese kümmert sich darum, von den Verwaltern der Distribution gepflegte Paketversionen zu installieren und aktuell zu halten, sowie sicherzustellen, dass die heruntergeladenen Pakete aus zuverlässiger Quelle stammen. Hierbei verwendet jede "Distributionsfamilie" eine eigene Paketverwaltung, da meist hinter den Kulissen auch andere Paketformate verwendet werden, die jeweils verschiedene Vorteile und Nachteile bieten.
 
 Je nach Linux-Distribution entsprechen die Versionen der Pakete dabei üblicherweise nicht dem allerletzten Stand der Entwickler, sondern werden üblicherweise von der Distribution mit Sicherheitsupdates versorgt und behalten ihre Versionsnummer bis zu einem Upgrade der Linux-Distribution auf die neue Version. Der Vorteil hierbei ist, dass sich das Linux-System innerhalb einer Version der Distribution stabil verhält, was insbesondere beim Erstellen von wissenschaftlichen Arbeiten sehr hilfreich sein kann. Aus diesem Grund ist es nicht ungewöhnlich, wenn die Versionen einzelner Programme etwas älter sind.
 
@@ -23,7 +23,7 @@ oder es muss zuerst mit `su` in eine administrative Konsole gewechselt werden:
 su -
 apt install <Programmname>
 ```
-Einige der genannten Distributionen bieten auch Pakete über eine grafische Softwareverwaltunge an, etwa "Synaptic" oder einfach "Software Center". Teils werden im Software Center jedoch auch Anwendungen aus externen Quellen angeboten, was ein Sicherheitsrisiko darstellen oder Probleme beim Update der Distribution verursachen kann. 
+Einige der genannten Distributionen bieten auch Pakete über eine grafische Softwareverwaltung an, etwa "Synaptic" oder einfach "Software Center". Teils werden im Software Center jedoch auch Anwendungen aus externen Quellen angeboten, was ein Sicherheitsrisiko darstellen oder Probleme beim Update der Distribution verursachen kann. 
 
 ## RedHat / CentOS / RockyLinux / AlmaLinux / Fedora Linux
 

@@ -6,7 +6,7 @@ Ist schlussendlich ein aktuelles Linux-System in einer aktuellen WSL-Umgebung in
 sudo apt update && sudo apt dist-upgrade
 sudo apt install build-essential libtbb-dev libtiff5 x11-apps git
 ```
-Schlussendlich kann den normalen Instruktionen für eine Installation unter Linux gefolgt werden, also herunterladen des Tarballs von der ROOT Webseite (mit wget), dann entpacken. Wichtig ist, tatsächlich in der Ubuntu-Umgebung mit wget herunterzuladen und zu entpacken, beim Herunterladen und Entpacken unter Windows und nachträglicher Kopie in die Linux-Umgebung kann es zu Problemen kommen, da Windows die Dateien unnötigerweise konvertiert. Schlussendlich dann in der Ubuintu-Umgebung folgendes Kommando ausführen:
+Schlussendlich kann den normalen Instruktionen für eine Installation unter Linux gefolgt werden, also herunterladen des Tarballs von der ROOT Webseite (mit `wget`), dann entpacken. Wichtig ist, tatsächlich in der Ubuntu-Umgebung mit `wget` herunterzuladen und zu entpacken, beim Herunterladen und Entpacken unter Windows und nachträglicher Kopie in die Linux-Umgebung kann es zu Problemen kommen, da Windows die Dateien unnötigerweise konvertiert. Schlussendlich dann in der Ubuintu-Umgebung folgendes Kommando ausführen:
 ```bash
 source root/bin/thisroot.sh
 ```
