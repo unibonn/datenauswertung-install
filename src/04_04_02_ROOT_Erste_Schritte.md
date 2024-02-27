@@ -13,7 +13,7 @@ Die Probleme sind ab Version 6.28/00 gelöst, unter Windows empfiehlt sich aufgr
 
 ## Windows-spezifische Hinweise
 
-Bei der Verwendung von Windows kann es manchmal zu Problemen bei der Darstellung von graphischen Elementen kommen.
+Bei der Verwendung von Windows kann es manchmal zu Problemen bei der Darstellung von grafischen Elementen kommen.
 Diese lassen sich häufig durch ein Update des Grafikkartentreibers beheben.
 
 ## Linux-spezifische Hinweise

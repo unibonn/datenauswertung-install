@@ -1,7 +1,7 @@
 # Installation von LaTeX
 
 LaTeX kann auf allen gängigen Betriebssystemen eingesetzt werden.
-Dabei lässt sich zwischen der reinen LaTeX-Installation und größeren Frameworks mit graphischer Oberfläche unterscheiden.
+Dabei lässt sich zwischen der reinen LaTeX-Installation und größeren Frameworks mit grafischer Oberfläche unterscheiden.
 
 Kurze Installationsanleitungen finden sich auf den entsprechenden Unterseiten:
 

@@ -4,7 +4,7 @@ LabPlot ist eine freie Open-Source-Software, welche zur Visualisierung und Analy
 Sie kann unter allen üblichen Betriebssystem installiert werden.
 
 Ähnlich zu [LibreOffice Calc](./03_01_LibreOffice.md) können mit LabPlot Messdaten erfasst werden.
-Zusätzlich können diese Daten auch graphisch dargestellt werden, wobei alle notwendigen Vorraussetzungen für die Darstellung erfüllt werden können.
+Zusätzlich können diese Daten auch grafisch dargestellt werden, wobei alle notwendigen Vorraussetzungen für die Darstellung erfüllt werden können.
 Das bedeutet unter anderem, das korrekte Einbeziehen von Unsicherheiten auf die Datenpunkte.
 Desweiteren bietet LabPlot die Möglichkeit, die Messdaten auch zu analysieren, also z.B. das Anpassen von Funktionen an die Daten.
 

@@ -6,8 +6,8 @@ Dies geschieht je nach Linux-Distribution leicht anders, siehe auch [Paketverwal
 ```shell
 sudo apt install texlive-full
 ```
-Dies installiert LaTeX ohne graphische Oberfläche.
-Falls eine Umgebung mit graphischer Oberfläche gewünscht ist, lässt sich eine solche über
+Dies installiert LaTeX ohne grafische Oberfläche.
+Falls eine Umgebung mit grafischer Oberfläche gewünscht ist, lässt sich eine solche über
 ```shell
 sudo apt install texstudio
 ```
