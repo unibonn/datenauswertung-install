@@ -2,6 +2,10 @@
 
 Als erster Test, ob die Installation erfolgreich war, eignen sich folgende Schritte:
 * Ein Terminal öffnen
+* Das Aktivieren der zuvor erstellten Umgebung, in die `matplotlib` installiert wurde über:
+```shell
+source <name-meiner-umgebung>/bin/activate
+```
 * Starten einer Python-Session durch eintippen des Kommandos `python3`.
 * In dieser Session den Befehl `import matplotlib` eingeben. Wird kein Fehler angezeigt, ist die Umgebung für den Einsatz bereit.
 
