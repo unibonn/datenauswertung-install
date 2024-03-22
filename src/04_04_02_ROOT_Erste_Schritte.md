@@ -22,9 +22,12 @@ Der Vollständigkeit halber sei erwähnt, dass theoretisch auch eine Installatio
 
 ## macOS-spezifische Hinweise
 
-Bei der späteren Auswertung muss auf macOS Systemen das Makefile leicht angepasst werden. Hier muss die Option:
+Sollte die über, zum Beispiel, Homebrew installierte Version nicht (mehr) funktionieren, kann dies an einer Inkompatibilität zwischen ROOT und Xcode liegen.
+In einem solchen Fall sollte es normalerweise ausreichen beide Software-Pakete auf den aktuellsten Stand zu bringen, ROOT über Homebrew und Xcode über den App Store.
+
+Bei der Verwendung von Makefile-basierten C++-Projekten, sollte folgende Option nicht im Makefile stehen:
 ```
 -Wl,--no-as-needed
 ```
-entfernt werden, die auf Ubuntu-Systemen benötigt (und auf anderen Systemen ignoriert) wird, aber auf macOS zwar nicht benötigt ist, allerdings zu einer Fehlermeldung führt.
+Diese wird auf Ubuntu-Systemen benötigt (und auf anderen Systemen ignoriert), führt aber auf macOS zu einer Fehlermeldung.
 

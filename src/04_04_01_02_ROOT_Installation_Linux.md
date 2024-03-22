@@ -11,3 +11,4 @@ Wenn auf diesen Wegen keine Version zur Verfügung steht, bleibt eine Installati
 Für die Installation über Conda muss auf dem System zum Beispiel entweder [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) oder [Anaconda](https://docs.anaconda.com/free/anaconda/) installiert sein.
 Diese sind meist Teil der Standard-Paketquellen.
 
+Unter den [Ersten Schritten](./04_04_02_ROOT_Erste_Schritte.md) mit ROOT finden sich auch noch einige, zum Teil betriebssystemabhängig, Hinweise zur allgemeinen Nutzung und Konfiguration.

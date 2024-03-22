@@ -10,3 +10,5 @@ Schlussendlich kann den normalen Instruktionen für eine Installation unter Linu
 ```bash
 source root/bin/thisroot.sh
 ```
+
+Unter den [Ersten Schritten](./04_04_02_ROOT_Erste_Schritte.md) mit ROOT finden sich auch noch einige, zum Teil betriebssystemabhängig, Hinweise zur allgemeinen Nutzung und Konfiguration.
