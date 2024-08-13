@@ -1,6 +1,10 @@
 # LabPlot Installation unter macOS
 
-LabPlot ist zwar auch grundsätzlich unter macOS verfügbar, allerdings noch nicht mittels einer Paketverwaltung.
-Dies wird voraussichtlich innerhalb der nächsten Zeit geschehen.
-In der Zwischenzeit lässt sich LabPlot zwar direkt über die [Webseite der Entwickler](https://labplot.kde.org/download/) herunterladen.
-Zur Installation werden aber noch Tricks gebraucht, von denen normalerweise abzuraten ist, da sie Sicherheitsmechanismen des Betriebssystems umgehen.
+## Installation per Paketverwaltung
+
+Bei Verwendung einer [Paketverwaltung](./ZZ_Paketverwaltungen_macOS.md) kann LabPlot unter dem Paketnamen `labplot` installiert werden.
+
+
+## Installation per Hand
+
+Die händische Installation erscheint zunächst einfacher, führt aber dazu, dass spätere Updates ebenfalls manuell eingespielt werden müssen. Für die händische Installation können die Pakete von der [Homepage von LabPlot](https://labplot.kde.org/download/) heruntergeladen und installiert werden.
