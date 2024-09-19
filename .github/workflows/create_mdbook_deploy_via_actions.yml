@@ -75,7 +75,7 @@ jobs:
     needs: build
     steps:
       - name: Clear out old caches
-        uses: MyAlbum/purge-cache@v2
+        uses: MyAlbum/purge-cache@v2.2.0
         with:
           accessed: true # Purge caches by their last accessed time (default)
           created: false # Purge caches by their created time (default)
