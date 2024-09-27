@@ -1,6 +1,6 @@
 # Erste Schritte
 
-Das ROOT-Team stellt eine breite Auswahl an Ressourcen zur Einarbeitung in ROOT zur Verfügung, siehe [hier](https://root.cern/get_started/).
+Das ROOT-Team stellt eine breite Auswahl an Ressourcen zur Einarbeitung in ROOT zur Verfügung, siehe [hier](https://root.cern/learn/).
 Dabei gibt es [allgemeine Hinweise](https://root.cern/primer/) zu ersten Schritten sowie [Tutorials](https://indico.cern.ch/event/395198/) inklusive Videos und Tutorials mit vorgefertigten [Code-Beispielen](https://root.cern/tutorials/).
 
 ## Allgemeine Hinweise
