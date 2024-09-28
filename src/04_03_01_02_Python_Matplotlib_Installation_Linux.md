@@ -6,6 +6,8 @@ Zum Aufsetzen einer virtuellen Umgebung, in die dann Matplotlib installiert werd
 python3 -m venv <name-meiner-umgebung>
 ```
 
+Falls dabei eine Fehlermeldung angezeigt wird, dass z.B. das Paket `python3.10-venv` zunächst installiert werden muss, so muss dies zuerst wie in der Meldung beschrieben nachgeholt werden.
+
 Sobald diese Umgebung erstellt ist, kann man sie starten bzw. in die Umgebung wechseln, indem man den folgenden Befehl ausführt:
 ```shell
 source <name-meiner-umgebung>/bin/activate
