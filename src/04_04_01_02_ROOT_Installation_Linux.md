@@ -5,7 +5,8 @@ Hier hängt der praktischste Weg von der verwendeten Linux-Distribution ab. Bei 
 
 Dies betrifft hauptsächlich RedHat-basierte Distributionen, ArchLinux und Gentoo. Für Ubuntu Linux in den LTS-Versionen stellt das ROOT-Team selbst vorkompilierte Pakete zur Verfügung, die nach der Anleitung unter
 [https://root.cern/install/](https://root.cern/install/)
-installiert werden können. Wichtig dabei ist, die passende Version herunterzuladen (etwa "Ubuntu 20" für Ubuntu 20.04 LTS).
+installiert werden können. Wichtig dabei ist, die passende Version herunterzuladen (etwa "Ubuntu 24.04" für Ubuntu 24.04 LTS).
+Außerdem müssen noch weitere benötigte Pakete selbstständig installiert werden, eine vollständige Liste inklusive des Befehls zum installieren sind [hier](https://root.cern/install/dependencies/#ubuntu-and-other-debian-based-distributions) zu finden.
 
 Wenn auf diesen Wegen keine Version zur Verfügung steht, bleibt eine Installation über [Conda](https://root.cern/install/#conda) oder "selbst kompilieren", was allerdings eine größere Herausforderung darstellt.
 Für die Installation über Conda muss auf dem System zum Beispiel entweder [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) oder [Anaconda](https://docs.anaconda.com/free/anaconda/) installiert sein.
