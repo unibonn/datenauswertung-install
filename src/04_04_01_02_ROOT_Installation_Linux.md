@@ -8,8 +8,21 @@ Dies betrifft hauptsächlich RedHat-basierte Distributionen, ArchLinux und Gento
 installiert werden können. Wichtig dabei ist, die passende Version herunterzuladen (etwa "Ubuntu 24.04" für Ubuntu 24.04 LTS).
 Außerdem müssen noch weitere benötigte Pakete selbstständig installiert werden, eine vollständige Liste inklusive des Befehls zum installieren sind [hier](https://root.cern/install/dependencies/#ubuntu-and-other-debian-based-distributions) zu finden.
 
-Wenn auf diesen Wegen keine Version zur Verfügung steht, bleibt eine Installation über [Conda](https://root.cern/install/#conda) oder "selbst kompilieren", was allerdings eine größere Herausforderung darstellt.
-Für die Installation über Conda muss auf dem System zum Beispiel entweder [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) oder [Anaconda](https://docs.anaconda.com/free/anaconda/) installiert sein.
-Diese sind meist Teil der Standard-Paketquellen.
+Wenn auf diesen Wegen keine Version zur Verfügung steht, bleibt eine Installation über [Miniforge](https://github.com/conda-forge/miniforge) oder "selbst kompilieren", was allerdings eine größere Herausforderung darstellt.
+Eine Installation über Miniforge kann folgendermaßen durchgeführt werden:
+```bash
+# Eigentliche Installation von Miniforge
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh -b -p ~/miniforge
+# Erstellen einer virtuellen Umgebung inklusive der ROOT-Installation
+source ~/miniforge/etc/profile.d/conda.sh
+conda create -n my_root_env root root_base
+```
+
+Nach erfolgreicher Installation kann ROOT dann über den folgenden Weg "geladen" werden:
+```bash
+source ~/miniforge/etc/profile.d/conda.sh
+conda activate my_root_env
+```
 
 Unter den [Ersten Schritten](./04_04_02_ROOT_Erste_Schritte.md) mit ROOT finden sich auch noch einige, zum Teil betriebssystemabhängige, Hinweise zur allgemeinen Nutzung und Konfiguration.
