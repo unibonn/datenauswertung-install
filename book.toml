@@ -1,7 +1,6 @@
 [book]
 authors = ["Oliver Freyermuth", "Michael Hübner"]
 language = "de"
-multilingual = false
 src = "src"
 title = "Installationsanleitungen für Datenauswertungstools"
 
