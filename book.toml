@@ -6,7 +6,7 @@ title = "Installationsanleitungen für Datenauswertungstools"
 
 [output.html]
 git-repository-url = "https://github.com/unibonn/datenauswertung-install"
-git-repository-icon = "fa-github"
+git-repository-icon = "fab-github"
 edit-url-template = "https://github.com/unibonn/datenauswertung-install/edit/main/{path}"
 site-url = "/datenauswertung-install/"
 
